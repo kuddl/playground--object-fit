@@ -1,0 +1,17 @@
+.square-image {
+  width: 400px;
+  height: 200px;
+  object-fit: none; /* try: fill, contain, cover, none, scale-down */
+  background-color: fuchsia;
+}
+
+.bg-square-image {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 2px dashed salmon;
+  background-image: url('https://placekitten.com/300/300');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto; /* try:  contain, cover, auto */
+}
